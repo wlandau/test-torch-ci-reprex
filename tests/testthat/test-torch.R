@@ -1,3 +1,3 @@
 test_that("torch", {
-  torch::torch_tensor(c(1, 2))
+  expect_silent(tmp <- torch::torch_tensor(c(1, 2)))
 })
