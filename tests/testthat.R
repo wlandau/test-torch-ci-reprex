@@ -1,4 +1,4 @@
 library(testthat)
-library(targets)
+library(testtorchcireprex)
 
-test_check("targets")
+test_check("testtorchcireprex")
